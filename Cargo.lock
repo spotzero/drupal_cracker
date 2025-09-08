@@ -72,6 +72,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "drupal_cracker"
+version = "0.1.0"
+dependencies = [
+ "hmac-sha512",
+ "pwhash",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -90,14 +98,6 @@ dependencies = [
  "cfg-if",
  "libc",
  "wasi",
-]
-
-[[package]]
-name = "hashcracker"
-version = "0.1.0"
-dependencies = [
- "hmac-sha512",
- "pwhash",
 ]
 
 [[package]]

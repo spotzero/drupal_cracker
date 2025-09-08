@@ -1,8 +1,13 @@
 [package]
-name = "hashcracker"
+name = "drupal_cracker"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 hmac-sha512 = "1.1.7"
 pwhash = "1.0.0"
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
