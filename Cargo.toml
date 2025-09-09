@@ -2,6 +2,13 @@
 name = "drupal_cracker"
 version = "0.1.0"
 edition = "2024"
+license-file = "LICENSE-APACHE"
+description = "This project is a very basic password cracker that cracks Drupal 7, 8, 9, 10, and 11 password hashes from a dictionary of passwords."
+homepage = "https://github.com/spotzero/drupal_cracker"
+repository =  "https://github.com/spotzero/drupal_cracker"
+readme = "README.md"
+categories = ["command-line-utilities", "security"]
+keywords = ["drupal", "passwords"]
 
 [dependencies]
 clap = { version = "4.5.47", features= ["derive"]}
